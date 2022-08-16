@@ -1,60 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live-Class-Project-10</title>
-    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="logo">
-                <h1>LOGO<br>HERE</h1>
+    <header>
+        <nav class="navbar">
+            <div>
+                <img src="./assets/white-logo.png" alt="logo" class="logo-img">
             </div>
-            <nav class="navbar">
-                <ul class="list">
-                    <li class="list-item">About Us</li>
-                    <li class="list-item">Benefits</li>
-                    <li class="list-item">Projects</li>
-                    <li class="list-item">Stages</li>
-                    <li class="list-item">Services</li>
-                    <img src="./images/phone-call-svgrepo-com.svg" alt="call-phone" class="phone-call">
+            <ul class="nav-list">
+                <li class="list-item"><a href="#">About Us</a></li>
+                <li class="list-item"><a href="#">Benifits</a></li>
+                <li class="list-item"><a href="#">Projects</a></li>
+                <li class="list-item"><a href="#">Stages</a></li>
+                <li class="list-item"><a href="#">Services</a></li>
 
-                    <li class="list-item-1">
-                        Call Us<br>
-                        +35 (097) 654 54 34
-                    </li>
-                </ul>
-                <div class="hr">
-                    <hr>
-                </div>
-            </nav>
-        </div>
-        <div class="center">
-            <div class="left">
-                <h1 class="desc">Interior Design That Care About Details</h1>
-                <button class="btn">LEARN MORE</button>
-            </div>
-            <div class="right">
-                <div class="cards">
-                    <div class="card-1">
-                        <img src="./images/puzzle-piece-svgrepo-com.svg" alt="puzzle-img" class="puzzle-img">
-                        <h3>We create your space better bassed on your own idea</h3>
+                <div class="nav-contact">
+                    <div class="phone-logo-div">
+                        <img src="./assets/phone.png" alt="call">
                     </div>
-                    <div class="line-1"></div>
-                    <div class="circle-1"></div>
+                    <div class="contact-details-div">
+                        <p>Call Us</p>
+                        <p>+38 (097) 654 54 34</p>
+                    </div>
+                </div>
 
-                    <div class="card-2">
-                        <img src="./images/bulb-off-svgrepo-com.svg" alt="bulb-img" class="bulb-img">
-                        <h3>Innovation ideas, stylish design <br> for home & Bussiness</h3>   
-                    </div>
-                    <div class="line-2"></div>
-                    <div class="circle-2"></div> 
-                </div>
+            </ul>
+
+        </nav>
+
+        <div class="hero-section">
+            <div class="left-section">
+                <h1>Interior Design That Care About Details</h1>
+                <button class="learn-more-btn">Learn More</button>
+            </div>
+
+            <div class="box box-1">
+                <img src="./assets/puzzle.png" alt="recording logo" class="box-img">
+                <p class="box-description">We create your space better based on your own idea</p>
+                <div class="line line-1"></div>
+                <div class="circle circle-1"></div>
+            </div>
+
+            <div class="box box-2">
+                <img src="./assets/bulb.png" alt="bulb icon" class="box-img">
+                <p class="box-description">Innovation ideas, stylish design <br> for home & Business</p>
+                <div class="line line-2"></div>
+                <div class="circle circle-2"></div>
             </div>
         </div>
-    </div>
+    </header>
 </body>
+
 </html>
